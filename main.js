@@ -18,7 +18,7 @@
     quiver = true,
     text = texts[0],
     textIndex = 0,
-    textSize = 50
+    let textSize = Math.min(CANVASWIDTH * 0.08, 50); // máximo 50px
 
   function draw () {
     ctx.clearRect(0, 0, CANVASWIDTH, CANVASHEIGHT)
