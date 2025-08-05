@@ -156,6 +156,11 @@
     draw()
   }
 
+  window.addEventListener('resize', () => {
+    setDimensions();
+});
+
+
   class Particle {
     constructor (canvas) {
       let spread = canvas.height
