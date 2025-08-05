@@ -106,6 +106,8 @@
   }
 
   function setDimensions () {
+    CANVASWIDTH = window.innerWidth;
+    CANVASHEIGHT = Math.min(window.innerHeight * 0.25, 200);
     canvas.width = CANVASWIDTH
     canvas.height = CANVASHEIGHT
     canvas.style.position = 'absolute'
