@@ -5,8 +5,9 @@
   const FRAME_RATE = 50
   const PARTICLE_NUM = 5000
   const RADIUS = Math.PI * 2
-  const CANVASWIDTH = 1500
-  const CANVASHEIGHT = 150
+  let CANVASWIDTH = window.innerWidth;
+  let CANVASHEIGHT = Math.min(window.innerHeight * 0.25, 200); // altura proporcional, máximo 200px
+
   const CANVASID = 'canvas'
 
   let texts = ['Hola niño de ojos bonitos','Conocerte es y será lindo', 'pero aún más lindo', 'es que cada día', 'estas a mi lado', 'Te amo muchito', 'Hola', 'para decirte que Mary', 'Te hizo esto porque', 'te ama mucho ♡', 'ella es la mejor persona', 'que he conocido', 'cuidala mucho porfa', 'Me caes re bien', 'confío en que lo harás', 'Y sobre todo amala y cuidala', 'Soy Darek el mas pro']
