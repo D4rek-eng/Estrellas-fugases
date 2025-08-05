@@ -99,3 +99,14 @@ a:hover {
 #canvas{
     margin: 0 auto;
 }
+
+@media screen and (max-width: 600px) {
+  html, body {
+    overflow-y: auto;
+  }
+
+  #canvas {
+    width: 100vw;
+    height: auto;
+  }
+}
