@@ -9,7 +9,7 @@
   const CANVASHEIGHT = 150
   const CANVASID = 'canvas'
 
-  let texts = ['Hola niño de ojos bonitos','Conocerte es y será lindo', 'pero aún más lindo', 'es que cada día', 'estas a mi lado', 'Te amo muchito', 'Hola', 'para decirte que Mary', 'Te hizo esto porque', 'te ama mucho ♡', 'ella es la mejor persona', 'que he conocido', 'cuidala mucho porfa', 'Me caes re bien', 'confío en que lo harás', 'Y sobre todo amala y cuidala', 'Soy Darek el mas pro']
+  let texts = ['Hola mi niña de ojitos preciosos','Conocerte es y será lindo', 'pero aún más lindo', 'es que hablar contigo', 'Te amo muchito', 'eres la chica', 'más increíble que conozco', 'eres tierna conmigo', 'amable', 'Dulce', 'siempre serás alguien especial para mi', 'quiero que estes siempre', 'en mi vida', 'me enorgullece ver', 'que te esfuerzas', 'Te quelo mi niña']
 
   let canvas,
     ctx,
